@@ -19,11 +19,11 @@ public class SubwayService {
 
     public SubwayListResponse getSubwayStations() {
         return SubwayListResponse.builder()
-                .Seoul(stationFactory.createStationList("수도권"))
-                .Busan(stationFactory.createStationList("부산"))
-                .Daejeon(stationFactory.createStationList("대전"))
-                .Daegu(stationFactory.createStationList("대구"))
-                .Gwangju(stationFactory.createStationList("광주"))
+                .seoul(stationFactory.createStationList("수도권"))
+                .busan(stationFactory.createStationList("부산"))
+                .daejeon(stationFactory.createStationList("대전"))
+                .daegu(stationFactory.createStationList("대구"))
+                .gwangju(stationFactory.createStationList("광주"))
                 .build();
     }
 

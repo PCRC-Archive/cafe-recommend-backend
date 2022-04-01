@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="station")
+@Table(name="station_sample1")
 @Getter
 @NoArgsConstructor
 public class Country {
