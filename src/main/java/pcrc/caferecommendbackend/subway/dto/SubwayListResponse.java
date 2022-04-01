@@ -12,9 +12,9 @@ import java.util.List;
 @Builder
 @Data
 public class SubwayListResponse {
-    List<RegionStationDto> Seoul;
-    List<RegionStationDto> Busan;
-    List<RegionStationDto> Daejeon;
-    List<RegionStationDto> Daegu;
-    List<RegionStationDto> Gwangju;
+    List<RegionStationDto> seoul;
+    List<RegionStationDto> busan;
+    List<RegionStationDto> daejeon;
+    List<RegionStationDto> daegu;
+    List<RegionStationDto> gwangju;
 }
