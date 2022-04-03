@@ -47,7 +47,7 @@ public class Cafe {
     @Column(name="테이크아웃")
     private int takeoutCategory;
 
-    @Column(name="'소개팅'")
+    @Column(name="소개팅")
     private int sogayCategory;
 
     @Column(name="커피맛집")
