@@ -13,13 +13,15 @@ public class UserResponseDto {
 
     private Boolean success;
 
+    private Long user_id;
+
     private String nickname;
 
     private String profile_image_url;
 
     private String email;
 
-    private String age_range;
+    private String birthday;
 
     private String gender;
 

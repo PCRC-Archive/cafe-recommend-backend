@@ -4,16 +4,17 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Email;
 
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserRequestDto {
+public class UserModReqDto {
 
-    @NotBlank
-    private String code;
+    String profile_image_url;
 
-    /*@NotBlank
-    private String service;*/
+    String nickname;
+
+    @Email
+    String email;
 }
