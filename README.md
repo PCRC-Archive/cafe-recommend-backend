@@ -21,4 +21,4 @@
 #### 후술
 
 ## 💽	DB Table Diagram
-<img src="https://user-images.githubusercontent.com/77635421/161716327-d9c46b52-bc3d-4480-8bcf-6b1de3fec27e.png">
+<img src="https://user-images.githubusercontent.com/77635421/161716327-d9c46b52-bc3d-4480-8bcf-6b1de3fec27e.png" width="700">
